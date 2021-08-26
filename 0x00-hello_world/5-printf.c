@@ -1,9 +1,11 @@
 #include <stdio.h>
-/**                                                                                * main - starting point of the program  
- * 
- * Description: prints a sample string                                             
- * Return: 0 if program executes properly, else a non-zero number                  
- */     
+
+/**
+ * main- starting point of the program
+ *
+ * Description: prints a sample string 
+ * Return : 0 if the program execute properly, else a non-zero number 
+ */   
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
