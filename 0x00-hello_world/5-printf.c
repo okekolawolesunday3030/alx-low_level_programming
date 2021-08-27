@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-/**
+/*
  * main- starting point of the program
  *
  * Description: prints a sample string 
- * Return : 0 if the program execute properly, else a non-zero number 
+ * Return: if the program execute properly, else a non-zero number 
  */   
 int main(void)
 {
