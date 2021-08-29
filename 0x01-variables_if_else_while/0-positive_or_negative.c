@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- *  main: starting point
+ * main: starting point
  *
- * Description: if the number is 0; is positive
+ * Description: using main function
  * else if: the number is 0: is zero
  * else:if the number is less than 0: is negative
  * Return: 0 followed by new line
