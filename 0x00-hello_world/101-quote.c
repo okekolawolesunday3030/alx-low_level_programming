@@ -1,13 +1,12 @@
 #include <stdio.h>
 
 /**
- * main : Entry point
+ * main - Entry point
  *
  * Return: 1
 */
 int main(void)
 {
-char err_msg[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-fwrite(err_msg, 1, sizeof(err_msg) - 1, stderr);
+write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 return (1);
 }

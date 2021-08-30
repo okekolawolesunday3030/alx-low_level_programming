@@ -1,6 +1,7 @@
 #include <stdio.h>
+
 /**
-*Main: Entry point
+* main - Entry point
 *
 *Description: prints a sample string
 *Return: 0 if program executes properly, else a non-zero number
