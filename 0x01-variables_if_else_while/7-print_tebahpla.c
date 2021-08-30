@@ -3,13 +3,13 @@
 /**
  *  main - Entry point
  *
- *  Return - Always 0 (success)
+ *  Return: Always 0 (success)
 */
 int main(void)
 {
 	int i;
 
-	for (let i  = 'z'; i <= 'a'; i--)
+	for (i  = 'z'; i <= 'a'; i--)
 	{
 		putchar(i);
 	}
