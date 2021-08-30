@@ -15,6 +15,9 @@ int main(void)
 
 	while (j < 58)
 	{
+		i = 48
+		while (i < 58)
+		{
 		k = 48;
 		while (k < 58)
 		{
@@ -38,3 +41,4 @@ int main(void)
 }
 putchar('\n');
 return (0);
+}
