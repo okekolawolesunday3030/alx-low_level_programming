@@ -23,7 +23,7 @@ int main(void)
 			{
 				op1 = (h * 10) + g;
 				op2 = (e * 10) + i;
-				if (opt < op2)
+				if (op1 < op2)
 				{
 					putchar(h);
 					putchar(g);
