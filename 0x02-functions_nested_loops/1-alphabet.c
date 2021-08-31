@@ -3,12 +3,12 @@
 
 void print_alphabet()
 {
-	char c[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
+
+	char i;
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
-		_putchar(c[i]);
+		_putchar(i);
 	}
 	_putchar('\n');
 
