@@ -4,7 +4,7 @@ int main(void)
 {
   char c[9] = "Holberton";
     
-    int i;
+  unsigned int i;
 
     for (i = 0; i < sizeof c; i++)
       {
