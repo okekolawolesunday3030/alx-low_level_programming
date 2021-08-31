@@ -2,7 +2,7 @@
 
 int main(void)
 {
-  char c[9] = "Holberton";
+  char c[9] = {'H', 'o', 'l', 'b', 'e', 'r', 't', 'o', 'n'};
     
   unsigned int i;
 
