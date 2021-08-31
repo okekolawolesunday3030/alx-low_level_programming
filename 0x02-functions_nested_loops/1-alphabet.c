@@ -3,7 +3,7 @@
 /**
  * main - check the code for ALX School students.
  *
- * Decription: print_alphabet() to print alphabet in lower case
+ * Decription: function print_alphabet() to print alphabet in lower case
  * Return: Always 0.
  */
 void print_alphabet(void)

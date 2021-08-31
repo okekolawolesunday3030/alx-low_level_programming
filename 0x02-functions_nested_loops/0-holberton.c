@@ -3,13 +3,13 @@
 /**
  * main - Entry point
  *
- * Description:  prints Holberton
+ * Description: function print_alphabet diplays string "Holberton"
  *
  * Return: Always 0.
  */
 int main(void)
 {
-  char c[8] = {'H', 'o', 'l', 'b', 'e', 'r', 't', 'o', 'n'};
+  char c[8] = {"Holberton"};
     
   unsigned int i;
 
