@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * main - check the code for ALX School students.
- * 
- * Description: _islower function hat checks for lowercase character
+ * main - check the code for ALX School students
+ * int _islower(int c): function that checks for lowercase character
  *
- * Decription: int c parameter is used
+ * int c: parameter is used
  *
  * Return: Always 0.
  */
