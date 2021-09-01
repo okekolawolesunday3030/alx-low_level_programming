@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-  char c[8] = {"Holberton"};
+  char c[8] = ["Holberton"];
     
   unsigned int i;
 
