@@ -1,15 +1,14 @@
 #include "main.h"
 
 /**
- * main - check the code for ALX School students.
- *
+ * print_last_digit - function that prints the last digit of a number.
+ * @c: paarameter
+ * @l: parameter
  * Return: Always 0.
  */
-int print_last_digit(int)
+int print_last_digit(int c, int l)
 {
-	int c;
-	int l = c % 10;
-	
+	l = c % 10;
 	if (c > 0 || c == 0)
 	{
 		_putchar (l + '0');
@@ -18,7 +17,7 @@ int print_last_digit(int)
 	else
 	{
 		c = c * -1;
-	_putchar (l + '0')
+	_putchar (l + '0');
 
 	return (l);
 	}
