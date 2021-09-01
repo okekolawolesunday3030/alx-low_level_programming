@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * main - check the code for ALX School students.
- *
+ * _isalpha - function to check if c is a letter, lowercase or uppercase
+ * @c: is the int that will use for the argument of the function
  * Return: Always 0.
  */
-int _isalpha(int c);
+int _isalpha(int c)
 {
-	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z)')
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
 		return (1);
 	}
