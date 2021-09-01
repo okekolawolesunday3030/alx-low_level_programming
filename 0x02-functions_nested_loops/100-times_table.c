@@ -5,7 +5,7 @@
  * @n: n int is declared
  * Return: 0 is returned
  */
-void print_to_98(int n)
+void print_times_table(int n)
 {
 	int num, mult, prod;
 
