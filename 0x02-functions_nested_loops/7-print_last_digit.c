@@ -6,9 +6,10 @@
  * @l: parameter
  * Return: Always 0.
  */
-int print_last_digit(int c, int l)
+int print_last_digit(int c)
 {
-	l = c % 10;
+	int l = c % 10;
+
 	if (c > 0 || c == 0)
 	{
 		_putchar (l + '0');
