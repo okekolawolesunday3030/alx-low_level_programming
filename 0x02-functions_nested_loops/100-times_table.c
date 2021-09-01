@@ -27,7 +27,7 @@ void print_to_98(int n)
 					_putchar(' ');
 				
 				if (prod >= 100)
-				{				{
+				{
 					_putchar((prod / 100) + '0');
 					_putchar(((prod / 10)) % 10 + '0');
 				}
@@ -37,7 +37,7 @@ void print_to_98(int n)
 				}
 				_putchar((prod % 10) + '0');
 			}
-			_putchar('\n');
+				_putchar('\n');
 		}
 	}
 }

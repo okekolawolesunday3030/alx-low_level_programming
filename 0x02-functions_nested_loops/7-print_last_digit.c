@@ -6,10 +6,8 @@
  * @l: parameter
  * Return: Always 0.
  */
-int print_last_digit(int)
+int print_last_digit(int c, int l)
 {
-	int c, l;
-
 	l = c % 10;
 	if (c > 0 || c == 0)
 	{
