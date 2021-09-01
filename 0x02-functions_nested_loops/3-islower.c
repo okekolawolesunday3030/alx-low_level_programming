@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code for ALX School students
- * int _islower(int c): function that checks for lowercase character
+ * _islower - function that checks for lowercase character
  *
- * int c: parameter is used
+ * @c: parameter is used
  *
  * Return: Always 0.
  */
