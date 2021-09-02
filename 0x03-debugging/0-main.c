@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - print if the number is postive, zero, or negative
@@ -7,7 +9,7 @@
  * this program prints "Programming is positive, zero, or negative
  * Return: 0.
  */
-int main(void)
+void positive_or_negative(int i)
 {
 	int n;
 
@@ -18,12 +20,12 @@ int main(void)
 	{
 		printf("%i is positive\n", n);
 	}
-	else if (n == 0)
+	else if (i == 0)
 	{
 		printf("%i is zero\n", n);
 
 	}
-	else if (n < 0)
+	else if (i < 0)
 	{
 		printf("%i is negative\n", n);
 	}
