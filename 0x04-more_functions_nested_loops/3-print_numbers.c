@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * main - function that prints the numbers,
+ * print_numbers - function that prints the numbers,
+ * Return: Aways 0
  */
 void print_numbers(void)
 {
@@ -10,9 +11,9 @@ void print_numbers(void)
 	c = 0;
 	while (c <= 9)
 	{
-		_putchar(c);
-		_putchar('\n');
+		_putchar((c % 10) + '0');
 		c++;
 	}
+	_putchar('\n');
 }
 
