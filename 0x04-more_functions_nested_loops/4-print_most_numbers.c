@@ -6,6 +6,8 @@
  */
 void print_most_numbers(void)
 {
+	int c, l;
+
 	for (c = 0; c <= 9; c++)
 	{
 		if (l != 2 && l != 4)
