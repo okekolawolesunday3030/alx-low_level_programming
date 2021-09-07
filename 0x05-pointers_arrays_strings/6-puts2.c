@@ -6,7 +6,8 @@
  */
 void puts2(char *str)
 {
-	int c; char l;
+	int c;
+	char l;
 
 	for (c = 0; str[c] != 0; c++)
 	{
