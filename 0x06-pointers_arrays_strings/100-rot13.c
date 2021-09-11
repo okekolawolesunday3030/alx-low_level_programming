@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * ot13 - Encodes a string using rot13.
+ * rot13 - Encodes a string using rot13.
  * @str: The string to be encoded.
  *
  * Return: A pointer to the encoded string.
@@ -27,9 +27,10 @@ char *rot13(char *str)
 			     'x', 'y', 'z', 'a', 'b', 'c',
 			     'd', 'e', 'f', 'g', 'h', 'i',
 			     'j', 'k', 'l', 'm'};
+
 	while (str[indx1])
 	{
-		for (indx = 0; indx2 < 52; indx2++)
+		for (indx2 = 0; indx2 < 52; indx2++)
 		{
 			if (str[indx1] == alphabet[index2])
 			{
