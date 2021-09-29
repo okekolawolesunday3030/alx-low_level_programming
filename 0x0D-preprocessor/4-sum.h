@@ -1,5 +1,5 @@
-#ifndef SUM_H
-#define SUM_H
+#ifndef __HEADER__
+#define __HEADER__
 
 /**
  * File: 4-sum.h
