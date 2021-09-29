@@ -1,10 +1,9 @@
-#ifndef FUNCTION_LIKE_MACRO_H
-#define FUNCTION_LIKE_MACRO_H
+#ifndef _HEADER_
+#define _HEADER_
 
 /**
  * File: 3-function_like_macro.h
- * Desc: ABS(X) that computes absolute value of x
+ * Desc: ABS(x) that computes absolute value of x
  */
-#define ABS(X) ((x) < 0 ? (-x) : (x))
-
+#define ABS(x) (x > 0 ? (x) : (x) * -1)
 #endif
