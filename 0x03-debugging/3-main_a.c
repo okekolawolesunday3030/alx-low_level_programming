@@ -12,7 +12,7 @@ int main(void)
 	int day;
 	int year;
 
-	moth = 4;
+	month = 4;
 	day = 01;
 	year = 1997;
 
@@ -21,4 +21,3 @@ int main(void)
 	print_remaining_days(month, day, year);
 	return (0);
 }
-
