@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - prints the numbers from 1 to 100, followed by a new line
+ * main- prints the numbers from 1 to 100, followed by a new line
  * but for multiples of three print Fizz
  * multiples of five print Buzz
  *  For numbers which are multiples of both three and five print FizzBuzz.
+ *  Return: value
  */
 int main(void)
 {
@@ -23,7 +24,7 @@ int main(void)
 		if (num == 100)
 			continue;
 		printf(" ");
-		printf("\n");
-		return (0);
 	}
+	printf("\n");
+	return (0);
 }
