@@ -1,5 +1,7 @@
 #include "main.h"
 /**
+ * print_square- function prints # in square pattern
+ * @size: parameter used
  *
  */
 void print_square(int size)
@@ -8,16 +10,13 @@ void print_square(int size)
 
 	if (size > 0)
 	{
-		for ( hgt = 0; hgt < size; hgt++)
+		for (hgt = 0; hgt < size; hgt++)
 		{
-			for ( wid = 0; wid < size; wid++)
+			for (wid = 0; wid < size; wid++)
 			{
-				if (hgt == size - 1)
-					_putchar('#');
-				continue;
-				_putchar('\n');
+				_putchar('#');
 			}
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
-}			
+}
